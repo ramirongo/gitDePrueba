@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+
+<script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="jquery-ui.js"></script>
+   
+  <style>
+  img{
+	width:150px;
+	height:auto;
+  }
+  
+  #bloque {
+    width: 150px;
+    height: 100px;
+    background-color: #ccc;
+	text-align:center;
+  }
+  </style>
+
+</head>
+<body>
+ 
+ <img src="carabineros.png" id="imagen" class="draggable">
+<div id="bloque" class="draggable">ARRÁSTRAME</div>
+ 
+<script>
+$( ".draggable" ).draggable();
+</script>
+ 
+</body>
+</html>
+
+
+
